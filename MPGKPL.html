@@ -8,20 +8,7 @@
 <title>
 Fuel Efficiency Converter
 </title>
-<script type="text/javascript">
 
-function convert()
-{
-	var result =0;
-	var milespergallon =prompt("Please enter a number to convert from miles per gallon to kilometers per liter", 0); 
-	
-	result = milespergallon * .42505303;
-	
-	
-	alert(milespergallon + " MPG = " + result + " KPL ");
-}
-
-</script>
 	<h1>Convert from Miles per Gallon to Kilometers Per Liter</h1>
 		<body style="background-image: url(highway.jpg); 
 		background-color:beige;
@@ -36,7 +23,20 @@ function convert()
 		<input type="button" style="width:1000px;height:500px" onclick="convert();" value="Convert">
 			</form>
 		
-		
+	<script type="text/javascript">
+
+		function convert()
+		{
+		var result =0;
+		var milespergallon =prompt("Please enter a number to convert from miles per gallon to kilometers per liter", 0); 
+	
+		result = milespergallon * .42505303;
+	
+	
+		alert(milespergallon + " MPG = " + result + " KPL ");
+		}
+
+	</script>	
 		</body>
 </html>
-	
+
